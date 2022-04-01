@@ -1,0 +1,70 @@
+/* Counter component styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Avenir");
+
+.board {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+ width: 250px;
+ height: 140px;
+ border: 1px solid #ddd ;
+ box-shadow: 0 0 5px 2px #efe9e9;
+}
+.container {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+
+
+.btn-dec {
+  width: 60px;
+  height: 56px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background: #fff;
+  border: 1px solid #b24242;
+  font-size: 21px;
+  font-weight: 900;
+  color: #b24242;
+  font-family: Avenir;
+}
+
+.btn-inc {
+  width: 60px;
+  height: 56px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: #b24242;
+  border: 1px solid #b24242;
+  color: #fff;
+  font-size: 21px;
+  font-weight: 900;
+  font-family: Avenir;
+}
+
+input[type="number"] {
+  text-align: center;
+  max-width: 60px;
+  height: 56px;
+  padding: 2px;
+  display: inline-block;
+  font-size: 21px;
+  font-weight: 900;
+  color: #b24242;
+  background-color: #fbe8e8;
+  border-width: 1px;
+  border-color: #b24242;
+  border-left: none;
+  border-right: none;
+  box-sizing: border-box;
+  outline: none;
+  font-family: Avenir;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
